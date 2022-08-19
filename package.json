@@ -1,0 +1,12 @@
+{
+  "name": "hicoder-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hu-hicoder/hicoder-bot.git",
+  "author": "taufe-mc <107316086+taufe-mc@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.2.0",
+    "prettier": "^2.7.1"
+  }
+}
