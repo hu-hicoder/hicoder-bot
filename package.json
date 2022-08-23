@@ -5,9 +5,25 @@
   "repository": "https://github.com/hu-hicoder/hicoder-bot.git",
   "author": "taufe-mc <107316086+taufe-mc@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "ts-node src/main.ts",
+    "start": "node build/main.js",
+    "compile": "tsc -p ."
+  },
   "dependencies": {
+    "@discordjs/rest": "^1.1.0",
     "discord.js": "^14.2.0",
     "dotenv": "^16.0.1",
     "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "*"
   }
 }
